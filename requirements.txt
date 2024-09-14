@@ -1,6 +1,2 @@
 
-pypiwin32==223
-
-
-
 streamlit==1.38.0
