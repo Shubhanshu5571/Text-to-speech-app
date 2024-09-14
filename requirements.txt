@@ -1,3 +1,2 @@
-pyttsx3==2.90
+gTTS==2.2.4
 streamlit==1.38.0
-comtypes
