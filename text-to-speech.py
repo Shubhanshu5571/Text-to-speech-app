@@ -16,7 +16,7 @@ if st.button('Male Voice'):
     #text_to_speech.save('text_to_speech_gtts.wav')
     #sound_file = 'text_to_speech_gtts.wav'
     #st.audio(sound_file,autoplay=True)
-    audio = pyttsx3.init()
+    audio = pyttsx3.init(driverName='sapi5')
     audio.setProperty('rate', 130)
     audio.setProperty('volume', 1.0)
 
@@ -38,7 +38,7 @@ if st.button('Male Voice'):
     
 if st.button('Female voice'):
     
-    audio = pyttsx3.init()
+    audio = pyttsx3.init(driverName='sapi5')
     audio.setProperty('rate', 150)
     audio.setProperty('volume', 1.0)
 
