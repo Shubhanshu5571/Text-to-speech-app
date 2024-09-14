@@ -1,7 +1,7 @@
 
 
 import streamlit as st
-import comtypes
+
 import pyttsx3
 
 st.title('Text to speech App')
